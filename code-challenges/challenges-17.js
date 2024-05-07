@@ -78,6 +78,7 @@ const filterLinks = (str) => {
 const isPalindrome = (str) => {
     let result=str.toLowerCase().replace(/[^a-z0-9]/g, "");
     return result===result.split("").reverse().join("");
+    //a
 }
 // -------------------------------------------------------------------------------------------------------
 
