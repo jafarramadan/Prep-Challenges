@@ -45,7 +45,7 @@ return split[index].length;
 // Output: false
 
 const wordLetters = (str1, str2) => {
-    //d
+    //ddddd
     const sortedChars = (str) => {
         return str.split('').sort().join('');
     };
