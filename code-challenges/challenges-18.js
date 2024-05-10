@@ -48,10 +48,11 @@ const wordLetters = (str1, str2) => {
     const sortedChars = (str) => {
         return str.split('').sort().join('');
     };
+
     const sortedStr1 = sortedChars(str1);
     const sortedStr2 = sortedChars(str2);
     return sortedStr1 === sortedStr2;
-
+//d
 }
 // -------------------------------------------------------------------------------------------------------
 
